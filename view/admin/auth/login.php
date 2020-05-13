@@ -1,15 +1,15 @@
 <?php
 
 if (!isset($_SESSION)) {
-    session_start();
+	session_start();
 }
-include_once ("../../../vendor/autoload.php");
+include_once "../../../vendor/autoload.php";
 if (isset($_POST['sbmt'])) {
 
-    $_POST['user_name'] = $_POST['user_name_or_email'];
-    $_POST['email'] = $_POST['user_name_or_email'];
-    $_user_login = new \App\admin\Auth\Auth();
-    $_user_login->set($_POST)->login();
+	$_POST['user_name'] = $_POST['user_name_or_email'];
+	$_POST['email'] = $_POST['user_name_or_email'];
+	$_user_login = new \App\admin\Auth\Auth();
+	$_user_login->set($_POST)->login();
 }
 
 ?>
@@ -21,10 +21,10 @@ if (isset($_POST['sbmt'])) {
 <head>
 <title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Login :: w3layouts</title>
 
-    <base href="http://localhost/projectsDoneOnPHP/ecommerceFurniture/">
+    <base href="http://localhost/ecommerceFurnitureOOP/">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Shoppy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -32,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- Custom Theme files -->
 <link href="assets/admin/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!--js-->
-<script src="js/jquery-2.1.1.min.js"></script> 
+<script src="js/jquery-2.1.1.min.js"></script>
 <!--icons-css-->
 <link href="assets/admin/css/font-awesome.css" rel="stylesheet">
 <!--Google Fonts-->
@@ -40,20 +40,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Work+Sans:400,500,600' rel='stylesheet' type='text/css'>
 <!--static chart-->
 </head>
-<body>	
+<body>
 <div class="login-page">
     <div class="login-main">
         <div style="position: fixed; z-index: 111; right: 30px">
             <?php
 
+if (isset($_SESSION['register'])) {
+	echo "<div class='alert alert-success'>" . $_SESSION['register'] . "</div>";
+	$_SESSION['register'] = null;
+}
 
-            if (isset($_SESSION['register'])) {
-                echo "<div class='alert alert-success'>" . $_SESSION['register']. "</div>";
-                $_SESSION['register'] = null;
-            }
-
-
-            ?>
+?>
         </div>
     	 <div class="login-head">
 				<h1>Login</h1>
@@ -69,7 +67,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <input type="radio" name="is_admin" value="0" class="lock" style="display: inline">Contributor
                     </div>
 					<div class="forgot-top-grids">
-						
+
 						<div class="clearfix"> </div>
 					</div>
                     <button name="sbmt" type="submit" class="btn btn-lg btn-success btn-block">Login</button>
@@ -82,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--copy rights start here-->
 <div class="copyrights">
 	 <p>© 2016 Shoppy. All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-</div>	
+</div>
 <!--COPY rights end here-->
 
 <!--scrolling js-->
@@ -95,5 +93,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </html>
 
 
-                      
-						
+
+

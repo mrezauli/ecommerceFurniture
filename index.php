@@ -9,11 +9,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 <title>Electronic Store a Ecommerce Online Shopping Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
 
-	<base href="http://localhost/projectsDoneOnPHP/ecommerceFurniture/">
+	<base href="http://localhost/ecommerceFurnitureOOP/">
 	<!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 	SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 	function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -30,22 +30,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- js -->
 <script src="assets/front/js/jquery.min.js"></script>
 <link rel="stylesheet" href="assets/front/css/jquery.countdown.css" /> <!-- countdown -->
-<!-- //js -->  
-<!-- web fonts --> 
+<!-- //js -->
+<!-- web fonts -->
 <link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- //web fonts -->  
+<!-- //web fonts -->
 <!-- start-smooth-scrolling -->
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script>
-<!-- //end-smooth-scrolling --> 
-</head> 
+<!-- //end-smooth-scrolling -->
+</head>
 <body>
 	<!-- for bootstrap working -->
 	<script type="text/javascript" src="assets/front/js/bootstrap-3.1.1.min.js"></script>
@@ -63,32 +63,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="modal-body modal-body-sub">
 					<div class="row">
 						<div class="col-md-8 modal_body_left modal_body_left1" style="border-right: 1px dotted #C2C2C2;padding-right:3em;">
-							<div class="sap_tabs">	
+							<div class="sap_tabs">
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
 										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Sign in</span></li>
 										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Sign up</span></li>
-									</ul>		
+									</ul>
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="facts">
 											<div class="register">
-												<form action="#" method="post">			
-													<input name="Email" placeholder="Email Address" type="text" required="">						
-													<input name="Password" placeholder="Password" type="password" required="">										
+												<form action="#" method="post">
+													<input name="Email" placeholder="Email Address" type="text" required="">
+													<input name="Password" placeholder="Password" type="password" required="">
 													<div class="sign-up">
 														<input type="submit" value="Sign in"/>
 													</div>
 												</form>
 											</div>
-										</div> 
-									</div>	 
+										</div>
+									</div>
 									<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
 										<div class="facts">
 											<div class="register">
-												<form action="#" method="post">			
+												<form action="#" method="post">
 													<input placeholder="Name" name="Name" type="text" required="">
-													<input placeholder="Email Address" name="Email" type="email" required="">	
-													<input placeholder="Password" name="Password" type="password" required="">	
+													<input placeholder="Email Address" name="Email" type="email" required="">
+													<input placeholder="Password" name="Password" type="password" required="">
 													<input placeholder="Confirm Password" name="Password" type="password" required="">
 													<div class="sign-up">
 														<input type="submit" value="Create Account"/>
@@ -96,14 +96,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												</form>
 											</div>
 										</div>
-									</div> 			        					            	      
-								</div>	
+									</div>
+								</div>
 							</div>
 							<script src="assets/front/js/easyResponsiveTabs.js" type="text/javascript"></script>
 							<script type="text/javascript">
 								$(document).ready(function () {
 									$('#horizontalTab').easyResponsiveTabs({
-										type: 'default', //Types: default, vertical, accordion           
+										type: 'default', //Types: default, vertical, accordion
 										width: 'auto', //auto or any width like 600px
 										fit: true   // 100% fit in a container
 									});
@@ -154,13 +154,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</form>
 				</div>
 			</div>
-			<div class="cart cart box_1"> 
-				<form action="#" method="post" class="last"> 
+			<div class="cart cart box_1">
+				<form action="#" method="post" class="last">
 					<input type="hidden" name="cmd" value="_cart" />
 					<input type="hidden" name="display" value="1" />
 					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-				</form>   
-			</div>  
+				</form>
+			</div>
 		</div>
 	</div>
 	<!-- //header -->
@@ -176,7 +176,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-				</div> 
+				</div>
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
 						<li><a href="index.php" class="act">Home</a></li>
@@ -235,7 +235,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h3>Electronic Store, <span>Special Offers</span></h3>
 		</div>
 	</div>
-	<!-- //banner --> 
+	<!-- //banner -->
 	<!-- banner-bottom -->
 	<div class="banner-bottom">
 		<div class="container">
@@ -264,7 +264,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							removalDelay: 300,
 							mainClass: 'my-mfp-zoom-in'
 						});
-																						
+
 						});
 					</script>
 			</div>
@@ -280,71 +280,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="agile_ecommerce_tabs">
                                 <?php
 
-                                include_once ("vendor/autoload.php");
-                                $_mobiles = new \App\front\Fproducts\Fproducts();
-                                $_category = "'Mobile'";
-                                $_all_mobiles = $_mobiles->index($_category);
+include_once "vendor/autoload.php";
+$_mobiles = new \App\front\Fproducts\Fproducts();
+$_category = "'Mobile'";
+$_all_mobiles = $_mobiles->index($_category);
 
-
-                                foreach ($_all_mobiles as $_mobile) {
-                                ?>
+foreach ($_all_mobiles as $_mobile) {
+	?>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-
-										<div class="w3_hs_bottom">
-											<ul>
-												<li>
-													<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
-												</li>
-											</ul>
-										</div>
-									</div> 
-									<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id']?>"><?php echo $_mobile['Product_Name']?></a></h5>
-									<div class="simpleCart_shelfItem">
-										<p><span>$380</span> <i class="item_price">$<?php echo $_mobile['Price']?></i></p>
-										<form action="#" method="post">
-											<input type="hidden" name="cmd" value="_cart" />
-											<input type="hidden" name="add" value="1" /> 
-											<input type="hidden" name="w3ls_item" value="<?php echo $_mobile['Product_Name']?>" />
-											<input type="hidden" name="amount" value="<?php echo $_mobile['Price']?>" />
-
-										</form>  
-									</div>
-								</div>
-                                <?php }?>
-
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
-							<div class="agile_ecommerce_tabs">
-                                <?php
-
-                                include_once ("vendor/autoload.php");
-                                $_laptops = new \App\front\Fproducts\Fproducts();
-                                $_category = "'Laptop'";
-                                $_all_laptops = $_laptops->index($_category);
-
-                                foreach ($_all_laptops as $_mobile) {
-                                ?>
-								<div class="col-md-4 agile_ecommerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
 
 										<div class="w3_hs_bottom">
 											<ul>
@@ -354,14 +306,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											</ul>
 										</div>
 									</div>
-									<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id']?>"><?php echo $_mobile['Product_Name']?></a></h5>
+									<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id'] ?>"><?php echo $_mobile['Product_Name'] ?></a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$380</span> <i class="item_price">$<?php echo $_mobile['Price']?></i></p>
+										<p><span>$380</span> <i class="item_price">$<?php echo $_mobile['Price'] ?></i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
-											<input type="hidden" name="w3ls_item" value="<?php echo $_mobile['Product_Name']?>" />
-											<input type="hidden" name="amount" value="<?php echo $_mobile['Price']?>" />
+											<input type="hidden" name="w3ls_item" value="<?php echo $_mobile['Product_Name'] ?>" />
+											<input type="hidden" name="amount" value="<?php echo $_mobile['Price'] ?>" />
 
 										</form>
 									</div>
@@ -375,23 +327,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="agile_ecommerce_tabs">
                                 <?php
 
-                                include_once ("vendor/autoload.php");
-                                $_ac = new \App\front\Fproducts\Fproducts();
-                                $_category = "'AC'";
-                                $_all_ac = $_ac->index($_category);
+include_once "vendor/autoload.php";
+$_laptops = new \App\front\Fproducts\Fproducts();
+$_category = "'Laptop'";
+$_all_laptops = $_laptops->index($_category);
 
-                                foreach ($_all_ac as $_mobile) {
-                                ?>
+foreach ($_all_laptops as $_mobile) {
+	?>
 								<div class="col-md-4 agile_ecommerce_tab_left">
 									<div class="hs-wrapper">
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
-										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image']?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
 
 										<div class="w3_hs_bottom">
 											<ul>
@@ -401,14 +353,61 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											</ul>
 										</div>
 									</div>
-									<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id']?>"><?php echo $_mobile['Product_Name']?></a></h5>
+									<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id'] ?>"><?php echo $_mobile['Product_Name'] ?></a></h5>
 									<div class="simpleCart_shelfItem">
-										<p><span>$380</span> <i class="item_price">$<?php echo $_mobile['Price']?></i></p>
+										<p><span>$380</span> <i class="item_price">$<?php echo $_mobile['Price'] ?></i></p>
 										<form action="#" method="post">
 											<input type="hidden" name="cmd" value="_cart" />
 											<input type="hidden" name="add" value="1" />
-											<input type="hidden" name="w3ls_item" value="<?php echo $_mobile['Product_Name']?>" />
-											<input type="hidden" name="amount" value="<?php echo $_mobile['Price']?>" />
+											<input type="hidden" name="w3ls_item" value="<?php echo $_mobile['Product_Name'] ?>" />
+											<input type="hidden" name="amount" value="<?php echo $_mobile['Price'] ?>" />
+
+										</form>
+									</div>
+								</div>
+                                <?php }?>
+
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+							<div class="agile_ecommerce_tabs">
+                                <?php
+
+include_once "vendor/autoload.php";
+$_ac = new \App\front\Fproducts\Fproducts();
+$_category = "'AC'";
+$_all_ac = $_ac->index($_category);
+
+foreach ($_all_ac as $_mobile) {
+	?>
+								<div class="col-md-4 agile_ecommerce_tab_left">
+									<div class="hs-wrapper">
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+										<img src="assets/uploads/<?php echo $_mobile['Upload_Product_Image'] ?>" alt=" " class="img-responsive" />
+
+										<div class="w3_hs_bottom">
+											<ul>
+												<li>
+													<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id'] ?>"><?php echo $_mobile['Product_Name'] ?></a></h5>
+									<div class="simpleCart_shelfItem">
+										<p><span>$380</span> <i class="item_price">$<?php echo $_mobile['Price'] ?></i></p>
+										<form action="#" method="post">
+											<input type="hidden" name="cmd" value="_cart" />
+											<input type="hidden" name="add" value="1" />
+											<input type="hidden" name="w3ls_item" value="<?php echo $_mobile['Product_Name'] ?>" />
+											<input type="hidden" name="amount" value="<?php echo $_mobile['Price'] ?>" />
 
 										</form>
 									</div>
@@ -419,18 +418,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</div>
 					</div>
-				</div> 
+				</div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-	<!-- //banner-bottom --> 
+	<!-- //banner-bottom -->
 	<!-- modal-video -->
 	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -439,7 +438,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-md-7 modal_body_right">
 							<h4>The Best Mobile Phone 3GB</h4>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 								commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 							<div class="rating">
 								<div class="rating-left">
@@ -463,8 +462,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span>$380</span> <i class="item_price">$350</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
-									<input type="hidden" name="w3ls_item" value="Mobile Phone1"> 
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="w3ls_item" value="Mobile Phone1">
 									<input type="hidden" name="amount" value="350.00">
 
 								</form>
@@ -489,7 +488,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -498,12 +497,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-md-7 modal_body_right">
 							<h4>Multimedia Home Accessories</h4>
-							<p>Ut enim ad minim veniam, quis nostrud 
-								exercitation ullamco laboris nisi ut aliquip ex ea 
-								commodo consequat.Duis aute irure dolor in 
-								reprehenderit in voluptate velit esse cillum dolore 
-								eu fugiat nulla pariatur. Excepteur sint occaecat 
-								cupidatat non proident, sunt in culpa qui officia 
+							<p>Ut enim ad minim veniam, quis nostrud
+								exercitation ullamco laboris nisi ut aliquip ex ea
+								commodo consequat.Duis aute irure dolor in
+								reprehenderit in voluptate velit esse cillum dolore
+								eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia
 								deserunt mollit anim id est laborum.</p>
 							<div class="rating">
 								<div class="rating-left">
@@ -527,8 +526,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span>$180</span> <i class="item_price">$150</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
-									<input type="hidden" name="w3ls_item" value="Headphones"> 
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="w3ls_item" value="Headphones">
 									<input type="hidden" name="amount" value="150.00">
 
 								</form>
@@ -553,7 +552,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -562,7 +561,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-md-7 modal_body_right">
 							<h4>Quad Core Colorful Laptop</h4>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in 
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in
 								reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia  deserunt.</p>
 							<div class="rating">
 								<div class="rating-left">
@@ -586,8 +585,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span>$880</span> <i class="item_price">$850</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
-									<input type="hidden" name="w3ls_item" value="Laptop"> 
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="w3ls_item" value="Laptop">
 									<input type="hidden" name="amount" value="850.00">
 
 								</form>
@@ -612,7 +611,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -621,7 +620,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-md-7 modal_body_right">
 							<h4>Cool Single Door Refrigerator </h4>
-							<p>Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore 
+							<p>Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore
 								eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<div class="rating">
 								<div class="rating-left">
@@ -645,8 +644,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span>$950</span> <i class="item_price">$820</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
-									<input type="hidden" name="w3ls_item" value="Mobile Phone1"> 
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="w3ls_item" value="Mobile Phone1">
 									<input type="hidden" name="amount" value="820.00">
 
 								</form>
@@ -671,7 +670,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -680,8 +679,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-md-7 modal_body_right">
 							<h4>New Model Mixer Grinder</h4>
-							<p>Excepteur sint occaecat laboris nisi ut aliquip ex ea 
-								commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+							<p>Excepteur sint occaecat laboris nisi ut aliquip ex ea
+								commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
 								eu fugiat nulla pariatur cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<div class="rating">
 								<div class="rating-left">
@@ -705,8 +704,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span>$460</span> <i class="item_price">$450</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
-									<input type="hidden" name="w3ls_item" value="Mobile Phone1"> 
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="w3ls_item" value="Mobile Phone1">
 									<input type="hidden" name="amount" value="450.00">
 
 								</form>
@@ -731,7 +730,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -740,8 +739,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-md-7 modal_body_right">
 							<h4>Dry Vacuum Cleaner</h4>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
-								commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+								commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
 								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 							<div class="rating">
 								<div class="rating-left">
@@ -765,8 +764,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span>$960</span> <i class="item_price">$920</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
-									<input type="hidden" name="w3ls_item" value="Vacuum Cleaner"> 
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="w3ls_item" value="Vacuum Cleaner">
 									<input type="hidden" name="amount" value="920.00">
 
 								</form>
@@ -791,7 +790,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<section>
 					<div class="modal-body">
@@ -800,12 +799,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 						<div class="col-md-7 modal_body_right">
 							<h4>Kitchen & Dining Accessories</h4>
-							<p>Ut enim ad minim veniam, quis nostrud 
-								exercitation ullamco laboris nisi ut aliquip ex ea 
-								commodo consequat.Duis aute irure dolor in 
-								reprehenderit in voluptate velit esse cillum dolore 
-								eu fugiat nulla pariatur. Excepteur sint occaecat 
-								cupidatat non proident, sunt in culpa qui officia 
+							<p>Ut enim ad minim veniam, quis nostrud
+								exercitation ullamco laboris nisi ut aliquip ex ea
+								commodo consequat.Duis aute irure dolor in
+								reprehenderit in voluptate velit esse cillum dolore
+								eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia
 								deserunt mollit anim id est laborum.</p>
 							<div class="rating">
 								<div class="rating-left">
@@ -829,8 +828,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p><span>$280</span> <i class="item_price">$250</i></p>
 								<form action="#" method="post">
 									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
-									<input type="hidden" name="w3ls_item" value="Induction Stove"> 
+									<input type="hidden" name="add" value="1">
+									<input type="hidden" name="w3ls_item" value="Induction Stove">
 									<input type="hidden" name="amount" value="250.00">
 
 								</form>
@@ -870,7 +869,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"> </div>
 		</div>
 	</div>-->
-	<!-- //banner-bottom1 --> 
+	<!-- //banner-bottom1 -->
 	<!-- special-deals -->
 	<!--<div class="special-deals">
 		<div class="container">
@@ -888,34 +887,34 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="wmuSlider example1">
 						<div class="wmuSliderWrapper">
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<article style="position: absolute; width: 100%; opacity: 0;">
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
 										<img src="assets/front/images/t1.png" alt=" " class="img-responsive" />
-										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
-											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
+										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate
+											velit esse quam nihil molestiae consequatur, vel illum qui dolorem
 											eum fugiat quo voluptas nulla pariatur</p>
 										<h4>Laura</h4>
 									</div>
 								</div>
 							</article>
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<article style="position: absolute; width: 100%; opacity: 0;">
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
 										<img src="assets/front/images/t2.png" alt=" " class="img-responsive" />
-										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
-											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
+										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate
+											velit esse quam nihil molestiae consequatur, vel illum qui dolorem
 											eum fugiat quo voluptas nulla pariatur</p>
 										<h4>Michael</h4>
 									</div>
 								</div>
 							</article>
-							<article style="position: absolute; width: 100%; opacity: 0;"> 
+							<article style="position: absolute; width: 100%; opacity: 0;">
 								<div class="banner-wrap">
 									<div class="w3agile_special_deals_grid_left_grid1">
 										<img src="assets/front/images/t3.png" alt=" " class="img-responsive" />
-										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate 
-											velit esse quam nihil molestiae consequatur, vel illum qui dolorem 
+										<p>Quis autem vel eum iure reprehenderit qui in ea voluptate
+											velit esse quam nihil molestiae consequatur, vel illum qui dolorem
 											eum fugiat quo voluptas nulla pariatur</p>
 										<h4>Rosy</h4>
 									</div>
@@ -925,8 +924,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 						<script src="assets/front/js/jquery.wmuSlider.js"></script>
 						<script>
-							$('.example1').wmuSlider();         
-						</script> 
+							$('.example1').wmuSlider();
+						</script>
 				</div>
 				<div class="col-md-5 w3agile_special_deals_grid_right">
 					<img src="assets/front/images/20.jpg" alt=" " class="img-responsive" />
@@ -961,14 +960,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</ul>
 							</div>
 						</div>
-						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id']?>">Laptops</a></h5>
+						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id'] ?>">Laptops</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$520</span> <i class="item_price">$500</i></p>
 							<form action="#" method="post">
 								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Red Laptop"> 
-								<input type="hidden" name="amount" value="500.00">   
+								<input type="hidden" name="add" value="1">
+								<input type="hidden" name="w3ls_item" value="Red Laptop">
+								<input type="hidden" name="amount" value="500.00">
 
 							</form>
 						</div>
@@ -990,14 +989,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</ul>
 							</div>
 						</div>
-						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id']?>">Black Phone</a></h5>
+						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id'] ?>">Black Phone</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$380</span> <i class="item_price">$370</i></p>
 							<form action="#" method="post">
 								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Black Phone"> 
-								<input type="hidden" name="amount" value="370.00">   
+								<input type="hidden" name="add" value="1">
+								<input type="hidden" name="w3ls_item" value="Black Phone">
+								<input type="hidden" name="amount" value="370.00">
 
 							</form>
 						</div>
@@ -1019,17 +1018,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</ul>
 							</div>
 						</div>
-						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id']?>">Kids Toy</a></h5>
+						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id'] ?>">Kids Toy</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$150</span> <i class="item_price">$100</i></p>
 							<form action="#" method="post">
 								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Kids Toy"> 
-								<input type="hidden" name="amount" value="100.00">   
+								<input type="hidden" name="add" value="1">
+								<input type="hidden" name="w3ls_item" value="Kids Toy">
+								<input type="hidden" name="amount" value="100.00">
 
 							</form>
-						</div>  
+						</div>
 					</div>
 				</div>
 				<div class="col-md-3 agileinfo_new_products_grid">
@@ -1048,14 +1047,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</ul>
 							</div>
 						</div>
-						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id']?>">Induction Stove</a></h5>
+						<h5><a href="view/front/singleView/single.php?uid=<?php echo $_mobile['unique_id'] ?>">Induction Stove</a></h5>
 						<div class="simpleCart_shelfItem">
 							<p><span>$280</span> <i class="item_price">$250</i></p>
 							<form action="#" method="post">
 								<input type="hidden" name="cmd" value="_cart">
-								<input type="hidden" name="add" value="1"> 
-								<input type="hidden" name="w3ls_item" value="Induction Stove"> 
-								<input type="hidden" name="amount" value="250.00">   
+								<input type="hidden" name="add" value="1">
+								<input type="hidden" name="w3ls_item" value="Induction Stove">
+								<input type="hidden" name="amount" value="250.00">
 
 							</form>
 						</div>
@@ -1071,7 +1070,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<h3>Top Brands</h3>
 			<div class="sliderfig">
-				<ul id="flexiselDemo1">			
+				<ul id="flexiselDemo1">
 					<li>
 						<img src="assets/front/images/tb1.jpg" alt=" " class="img-responsive" />
 					</li>
@@ -1095,31 +1094,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							visibleItems: 4,
 							animationSpeed: 1000,
 							autoPlay: true,
-							autoPlaySpeed: 3000,    		
+							autoPlaySpeed: 3000,
 							pauseOnHover: true,
 							enableResponsiveBreakpoints: true,
-							responsiveBreakpoints: { 
-								portrait: { 
+							responsiveBreakpoints: {
+								portrait: {
 									changePoint:480,
 									visibleItems: 1
-								}, 
-								landscape: { 
+								},
+								landscape: {
 									changePoint:640,
 									visibleItems:2
 								},
-								tablet: { 
+								tablet: {
 									changePoint:768,
 									visibleItems: 3
 								}
 							}
 						});
-						
+
 					});
 			</script>
 			<script type="text/javascript" src="assets/front/js/jquery.flexisel.js"></script>
 		</div>
 	</div>-->
-	<!-- //top-brands --> 
+	<!-- //top-brands -->
 	<!-- newsletter -->
 	<!--<div class="newsletter">
 		<div class="container">
@@ -1152,7 +1151,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<!--<div class="col-md-3 w3_footer_grid">
 					<h3>Information</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><a href="view/front/aboutUs/about.html">About Us</a></li>
 						<li><a href="view/front/mailUs/mail.html">Contact Us</a></li>
 						<li><a href="view/front/shortCodes/codes.html">Short Codes</a></li>
@@ -1162,7 +1161,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>-->
 				<!--<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><a href="view/front/mobiles/products.php">Mobiles</a></li>
 						<li><a href="view/front/accessories/products1.php">Laptops</a></li>
 						<li><a href="view/front/mobiles/products.php">Purifiers</a></li>
@@ -1172,7 +1171,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>-->
 				<!--<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><a href="index.php">Home</a></li>
 						<li><a href="view/front/mobiles/products.php">Today's Deals</a></li>
 					</ul>
@@ -1200,7 +1199,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-	<!-- //footer --> 
+	<!-- //footer -->
 	<!-- cart-js -->
 	<script src="assets/front/js/minicart.js"></script>
 	<script>
@@ -1212,11 +1211,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         	if (this.subtotal() > 0) {
         		items = this.items();
 
-        		for (i = 0, len = items.length; i < len; i++) { 
+        		for (i = 0, len = items.length; i < len; i++) {
         		}
         	}
         });
-    </script>  
-	<!-- //cart-js -->   
+    </script>
+	<!-- //cart-js -->
 </body>
 </html>

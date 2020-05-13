@@ -1,6 +1,6 @@
 <?php
 if (!isset($_SESSION)) {
-    session_start();
+	session_start();
 }
 
 ?>
@@ -9,7 +9,7 @@ if (!isset($_SESSION)) {
 <head>
     <title>Shoppy an Admin Panel Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
 
-    <base href="http://localhost/projectsDoneOnPHP/ecommerceFurniture/">
+    <base href="http://localhost/ecommerceFurnitureOOP/">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -270,7 +270,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <div class="profile_img">
                                         <span class="prfil-img"><img src="images/p1.png" alt=""> </span>
                                         <div class="user-name">
-                                            <p><?php echo $_SESSION['user_name']?></p>
+                                            <p><?php echo $_SESSION['user_name'] ?></p>
                                             <span>Super Admin</span>
                                         </div>
                                         <i class="fa fa-angle-down lnr"></i>
@@ -294,9 +294,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <?php
 
 if (!isset($_SESSION['user_name']) || $_SESSION['is_admin'] == 0) {
-    echo "<script>window.location = 'view/admin/auth/login.php'</script>>";
+	echo "<script>window.location = 'view/admin/auth/login.php'</script>>";
 }
-
-
 
 ?>

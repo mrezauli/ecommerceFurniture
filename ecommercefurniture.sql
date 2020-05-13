@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 11, 2018 at 09:34 PM
+-- Generation Time: May 06, 2018 at 07:34 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -72,7 +72,8 @@ INSERT INTO `products` (`id`, `Product_Name`, `Price`, `Category`, `Description`
 (84, 'oppo', 289, 'Laptop', 'most ', '02968726b74.jpg', 1, '4fc283f8b33', '2017-11-07 21:03:50', '2017-11-08 03:03:35', '0000-00-00 00:00:00'),
 (85, 'liop', 985632, 'AC', 'pop', '94ed9efb7c9.png', 1, '94ed9efb7c9', '2017-11-08 08:10:43', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (86, 'lg', 1234565, 'Mobile', 'lg', 'fb72230c0c1.jpg', 1, 'fb72230c0c1', '2017-11-08 08:12:20', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(87, 'hbfb', 878978, 'Laptop', 'jjkjn', 'cd55b249424.jpg', 0, 'cd55b249424', '2017-11-08 08:14:42', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(87, 'hbfb', 878978, 'Laptop', 'jjkjn', 'cd55b249424.jpg', 0, 'cd55b249424', '2017-11-08 08:14:42', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(88, 'MSI', 500, 'Laptop', 'Laptop', '49ea9d4c0b4.png', 1, '49ea9d4c0b4', '2018-05-06 17:31:03', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -139,7 +140,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=89;
 
 --
 -- AUTO_INCREMENT for table `users`
